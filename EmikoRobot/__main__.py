@@ -381,7 +381,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛꜱ", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ!​​", url="https://github.com/Reyzuuu/EmikoRobot"),
+                    InlineKeyboardButton(text="ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​​", url="https://github.com/Reyzuuu/EmikoRobot"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_back"),
@@ -461,10 +461,11 @@ def emiko_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="Reyzu", url="https://github.com/reyzuuu"),
+                    InlineKeyboardButton(text="Sena-Ex", url="https://github.com/kennedy-ex"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sena-Ex", url="https://github.com/kennedy-ex"),
                     InlineKeyboardButton(text="TheHamkerCat", url="https://github.com/TheHamkerCat"),
+                    InlineKeyboardButton(text="Feri", url="https://github.com/FeriEXP"),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_"),
