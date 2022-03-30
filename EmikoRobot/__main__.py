@@ -97,9 +97,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ʜᴇʟᴘ", callback_data="help_back"),
-        InlineKeyboardButton(
-            text="ᴛʀʏ ɪɴʟɪɴᴇ!​​", switch_inline_query_current_chat=""
-        ),
+        InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ", url="https://t.me/Reyzuuu"),
     ],
     [
         InlineKeyboardButton(
@@ -383,7 +381,7 @@ def emiko_about_callback(update, context):
                     InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛꜱ", callback_data="emiko_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="ᴄᴏɴᴛᴀᴄᴛ ʀᴇʏᴢᴜ", url="https://t.me/Reyzuuu"),
+                    InlineKeyboardButton(text="ᴛʀʏ ɪɴʟɪɴᴇ!​​", switch_inline_query_current_chat=""),
                  ],
                  [
                     InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_back"),
