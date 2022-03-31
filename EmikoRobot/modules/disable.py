@@ -322,11 +322,11 @@ if is_module_loaded(FILENAME):
 
 *Admins only :*
 
-❂ /enable <cmd name> *:* enable that command
-❂ /disable <cmd name> *:* disable that command
-❂ /enablemodule <module name> *:* enable all commands in that module
-❂ /disablemodule <module name> *:* disable all commands in that module
-❂ /listcmds *:* list all possible toggleable commands
+❂ /enable <cmd name> *:* enable that command.
+❂ /disable <cmd name> *:* disable that command.
+❂ /enablemodule <module name> *:* enable all commands in that module.
+❂ /disablemodule <module name> *:* disable all commands in that module.
+❂ /listcmds *:* list all possible toggleable commands.
 """
 
     DISABLE_HANDLER = CommandHandler("disable", disable, run_async=True)
