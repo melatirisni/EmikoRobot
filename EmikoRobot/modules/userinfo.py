@@ -546,16 +546,16 @@ __help__ = """
 *Self addded information :* 
 ❂ /setme <text> *:* will set your info
 ❂ /me *:* will get your or another user's info.
-Examples:
+Examples :
 ❂ /setme I am a wolf.
-❂ /me @username (defaults to yours if no user specified)
+❂ /me @username (defaults to yours if no user specified).
  
 *Information others add on you :* 
 ❂ /bio *:* will get your or another user's bio. This cannot be set by yourself.
-❂ /setbio <text> *:* while replying, will save another user's bio 
-Examples:
+❂ /setbio <text> *:* while replying, will save another user's bio.
+Examples :
 ❂ /bio @username (defaults to yours if not specified).
-❂ /setbio This user is a wolf (reply to the user)
+❂ /setbio This user is a wolf (reply to the user).
  
 *Overall Information about you :*
 ❂ /info *:* get information about a user. 
@@ -566,7 +566,7 @@ Examples:
 *AFk :*
 When marked as AFK, any mentions will be replied to with a message stating that you're not available!
 ❂ /afk <reason> *:* Mark yourself as AFK.
-  - brb <reason> : Same as the afk command, but not a command. 
+❂ /brb <reason> : Same as the afk command, but not a command. 
   
 *What is that health thingy?*
 Come and see [HP System explained](https://telegra.ph/hp-system-explained-03-31)
