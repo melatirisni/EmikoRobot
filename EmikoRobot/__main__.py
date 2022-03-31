@@ -421,9 +421,9 @@ def emiko_about_callback(update, context):
     elif query.data == "emiko_notes":
         query.message.edit_text(
             text=f"<b>๏ Setting up notes</b>"
-            f"\nYou can save message/media/audio or anything as notes"
-            f"\nto get a note simply use # at the beginning of a word"
-            f"\n\nYou can also set buttons for notes and filters (refer help menu)",
+            f"\nYou can save message/media/audio or anything as notes."
+            f"\n\nTo get a note simply use # at the beginning of a word."
+            f"\n\nYou can also set buttons for notes and filters (refer help menu).",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton(text="ɢᴏ ʙᴀᴄᴋ", callback_data="emiko_")]]
