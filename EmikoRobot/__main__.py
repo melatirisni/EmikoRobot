@@ -107,7 +107,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Click on the button bellow to get description about specifics command. Contact the owner if something goes wrong."""
+"""
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
